@@ -1,14 +1,15 @@
 #include<stdio.h>
 void PrintN(int N){
-	/*	int i;
+		int i;
 		for( i=1; i <= N; i++){
 			printf("%d\n",i);
 		}
-	*/
+	/*当N为非常非常大的正整数的时候，递归不能实现正常输出，因为他空间占用特别大
 		if(N){
 			PrintN(N-1);
 			printf("%d\n",N);
 		}
+	*/
 	}
 int main(){
 	int N;
